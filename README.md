@@ -56,11 +56,5 @@ HMAC_KEY = "mi_hmac_key_segura"
 ## Descripción corta para el repo
 "App educativa en Streamlit que demuestra hashing (SHA, BLAKE2), salting, peppering y HMAC — deploy directo con GitHub + Streamlit Cloud."
 
-## Script de prueba manual (pasos)
-1. Abrir la app desplegada.
-2. Pestaña "Texto": pegar "hola mundo", seleccionar SHA-256 → Calcular.
-3. Pestaña "Archivo": subir `assets/example.txt` → Calcular hash (ver progreso).
-4. Generar salt y aplicar `with_salt` → comparar hashes con la sección "Comparar".
-5. Configurar `st.secrets` con `PEPPER` y `HMAC_KEY` y probar funciones de pepper y HMAC.
-6. Descargar CSV con resultados y revisar contenido.
+
 
